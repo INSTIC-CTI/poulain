@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!
+{% endblock %}
+
+{% block body %}
+
+	{% for personne in personnes %}
+		<div>{{personne.nom}}</div>
+	{% endfor %}
+
+{% endblock %}
